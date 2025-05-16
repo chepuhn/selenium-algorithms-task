@@ -6,7 +6,7 @@ driver = webdriver.Chrome()
 
 try:
     driver.get("https://example.com")
-    time.sleep(2)  # ждём немного для надёжности
+    time.sleep(2)  
 
     assert "Example" in driver.title
     print("Заголовок содержит 'Example' — проверка пройдена.")
